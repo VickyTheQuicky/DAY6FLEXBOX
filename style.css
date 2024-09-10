@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.container {
+  width: 400px;
+  border: 2px solid black;
+  margin: 3rem auto;
+  padding: 0.5rem;
+}
+/* .zero {
+  display: block;
+  justify-content: space-around;
+}
+.first {
+  display: inline;
+  align-content: space-around;
+} */
+
+.row {
+  display: flex;
+}
+.row > p {
+  width: 70%;
+}
+.row > div {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.first-hr {
+  height: 12px;
+  background-color: black;
+}
+
+.thiner {
+  height: 3.5px;
+  background-color: black;
+}
+.daily-w {
+  display: flex;
+  justify-content: flex-end;
+}
+.valueline {
+  height: 1px;
+  background-color: black;
+}
+.thicker {
+  height: 9px;
+  background-color: black;
+}
+.amount {
+  height: 1;
+  background-color: black;
+}
